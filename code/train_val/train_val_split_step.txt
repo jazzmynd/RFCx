@@ -1,0 +1,8 @@
+step 0: make sure you have full negative data on you cluster and train_val folder in the same directory of you train.py
+
+step 1: go to the directory where you want to train you model and rename the /n to /n_filtered 
+
+step 2: copy the negative data to this director name it as /n e.g. ./filtered_2  
+cp -a ./image_Data/puerto-rico/train/n/. ./aug_image_data/filtered_2/n
+
+step 3: run train.py with this directory as data_dir
